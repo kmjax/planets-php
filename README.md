@@ -9,7 +9,7 @@
 
 Create a webpage about the planets in our solar system
 
-- [ ] a) Use data found from here: [https://www.google.com/search?q=planets](https://www.google.com/search?q=planets) _Click on the planet image to view the planet data on the right hand side of the web page_
+- [x] Use data found from here: [https://www.google.com/search?q=planets](https://www.google.com/search?q=planets) _Click on the planet image to view the planet data on the right hand side of the web page_
 - [ ] b) Create a database table with these columns: Planet Name, Description, Distance from Sun, Radius, Mass, Length of Day, Orbital Period, and link to Google Maps.
 - [ ] c) Store the data from each planet's Google web page into the database table
 - [ ] d) Create a web page that pulls the data out of the planets database table and displays the information in a table
@@ -18,7 +18,7 @@ Create a webpage about the planets in our solar system
 
 #### STATUS
 
-Project initiated! 
+10% Completed. Information gathered and stored in a spreadsheet for all of our solar system's 8 planets.
 
 See checklist above for status of each project objective. 
 

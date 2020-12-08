@@ -4,15 +4,66 @@ body {
   background-position: left top;
   background-repeat: repeat;
   color: seashell;
-  padding: 20px;
+  padding: 25px;
   font-family: "Tahoma", "Helvetica", "Candara", "Arial", "sans-serif";
-  font-size: 14px;
+  font-size: 16px;
 }
 
-h3 {
-  font-size: 20px;
+h1 {
+  font-size: 42px;
+  color: bisque;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 7px blue;
 }
 
-hr {
-  margin-top: 25px;
+#planets-table {
+  color: seashell;
+}
+
+#th-planet-name {
+  background-color: #2a2d30;
+}
+
+#th-description {
+  background-color: #2a2d30;
+}
+
+#th-distance {
+  background-color: #2a2d30;
+}
+
+#th-radius {
+  background-color: #2a2d30;
+}
+
+#th-mass {
+  background-color: #2a2d30;
+}
+
+#th-length-of-day {
+  background-color: #2a2d30;
+}
+
+#th-orbital-period {
+  background-color: #2a2d30;
+}
+
+#th-google-maps-link {
+  background-color: #2a2d30;
+}
+
+.google-maps-link {
+  color: lightskyblue;
+  border: 1px solid seashell;
+  border-radius: 3px;
+  padding: 3px 7px 4px 7px;
+}
+
+.google-maps-link:hover {
+  background-color: black;
+}
+
+.col-google-maps-link {
+  text-align: center;
 }

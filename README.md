@@ -14,17 +14,19 @@ Create a webpage about the planets in our solar system
 - [x] c) Store the data from each planet's Google web page into the database table
 - [x] d) Create a web page that pulls the data out of the planets database table and displays the information in a table
 - [x] e) Clicking on the Google Maps link should open in a new page (tab)
-- [ ] f) Use the bootstrap table utility classes for styling the table
+- [x] f) Use the bootstrap table utility classes for styling the table
 
 #### STATUS
 
-75% Completed. Planet links to Google Space Maps are now functional and open up in a new page (tab). All that is left is applying Bootstrap to the page and styling to the table.
+COMPLETED on 2020-12-08. 
 
 See checklist above for status of each project objective. 
 
 
 #### PREVIOUS STATUS MESSAGES
 
+- 100% Bootstrap classes and table styling applied to the webpage.
+- 75% Completed. Planet links to Google Space Maps are now functional and open up in a new page (tab). All that is left is applying Bootstrap to the page and styling to the table.
 - 70% Completed. The core content of the web page is now in place. Planetary data is fetched and displayed in a table. Currently, there is no styling applied to the results and as a result it is ugly.
 - 20% Completed. Database table PLANETS created and populated with all planetary information from the spreadsheet. The planets table was dumped and stored in the repository.
 - 10% Completed. Information gathered and stored in a spreadsheet for all of our solar system's 8 planets.

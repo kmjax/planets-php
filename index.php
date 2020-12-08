@@ -39,9 +39,11 @@ if (!$conn) {
     <meta name="author" content="Kelsey McClanahan" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planets</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+<div class="container-fluid table-responsive-lg">
 
 
 <?php
@@ -50,7 +52,7 @@ if (!$conn) {
  LIST OF PLANETS (SELECT)
  ************************************************/
 
-print "<hr><h3>List of Planets:</h3>";
+print "<h1>PLANETS OF THE SOLAR SYSTEM</h1>";
 
 // Create the SQL SELECT statement to read the planets
 // Note: Data is returned sorted by planet_id
@@ -60,16 +62,16 @@ $result = mysqli_query($conn, $sql);
 // If the query returned rows from the database, display all of the records in an HTML table
 if (mysqli_num_rows($result) > 0) {
   // Start the table and output the table header names
-  print "<table id='planets-table'>";
+  print "<table class='table table-sm table-bordered table-striped table-dark table-hover' id='planets-table'>";
   print "<tr>";
-  print "<thead>";
+  print "<thead class='thead-dark planets-thead'>";
   print "<th id='th-planet-name'>Planet</th>";
   print "<th id='th-description'>Description</th>";
-  print "<th id='th-distance'>Distance From Sun</th>";
-  print "<th id='th-radius'>Radius</th>";
-  print "<th id='th-mass'>mass</th>";
-  print "<th id='th-length-of-day'>Length of Day</th>";
-  print "<th id='th-orbital-period'>Oribital Period</th>";
+  print "<th id='th-distance' width='135px'>Distance From Sun</th>";
+  print "<th id='th-radius' width='95px'>Radius</th>";
+  print "<th id='th-mass' width='150px'>Mass</th>";
+  print "<th id='th-length-of-day' width='110px'>Length of Day</th>";
+  print "<th id='th-orbital-period' width='85px'>Oribital Period</th>";
   print "<th id='th-google-maps-link'>Google Maps Link</th>";
   print "</tr>";
   print "</thead>";
@@ -99,7 +101,7 @@ if (mysqli_num_rows($result) > 0) {
     print "<td class='col-mass'>$mass</td>";
     print "<td class='col-length-of-day'>$lengthOfDay</td>";
     print "<td class='col-orbital-period'>$orbitalPeriod</td>";
-    print "<td class='col-google-maps-link'><a href='$googleMapsLink' target='_blank' class='google-maps-link'>$planetName Link</a></td>";
+    print "<td class='col-google-maps-link'><a href='$googleMapsLink' target='_blank' class='google-maps-link'>$planetName</a></td>";
     
     // And close out the table row
     print "</tr>";
@@ -118,9 +120,14 @@ mysqli_close($conn);
 
 ?>
 
-<!-- ===================
-       CLOSE HTML PAGE
-     =================== -->
+<!-- ========================================================
+       Required Bootstrap Scripts and Closing the HTML PAGE
+     ======================================================== -->
     
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 </html>

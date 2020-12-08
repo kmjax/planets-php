@@ -1,0 +1,18 @@
+body {
+  background-color: #020202;
+  background-image: url("../images/darkness_made_by_Isabelle_Schniermanni.png");
+  background-position: left top;
+  background-repeat: repeat;
+  color: seashell;
+  padding: 20px;
+  font-family: "Tahoma", "Helvetica", "Candara", "Arial", "sans-serif";
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+hr {
+  margin-top: 25px;
+}

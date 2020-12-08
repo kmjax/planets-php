@@ -99,7 +99,7 @@ if (mysqli_num_rows($result) > 0) {
     print "<td class='col-mass'>$mass</td>";
     print "<td class='col-length-of-day'>$lengthOfDay</td>";
     print "<td class='col-orbital-period'>$orbitalPeriod</td>";
-    print "<td class='col-google-maps-link'>$googleMapsLink</td>";
+    print "<td class='col-google-maps-link'><a href='$googleMapsLink' target='_blank' class='google-maps-link'>$planetName Link</a></td>";
     
     // And close out the table row
     print "</tr>";

@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `planets` (
   `planet_id` int(11) NOT NULL,
   `planet_name` varchar(16) NOT NULL,
-  `description` varchar(512) NOT NULL,
+  `planet_description` varchar(512) NOT NULL,
   `distance_from_sun` varchar(32) NOT NULL,
   `radius` varchar(32) NOT NULL,
   `mass` varchar(32) NOT NULL,

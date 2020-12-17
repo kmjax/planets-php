@@ -2,7 +2,7 @@
 
 #### LINKS
 
-1. This project's page: [https://kmjax.surge.sh/hw/2020-12-07_planets/](https://kmjax.surge.sh/hw/2020-12-07_planets/)
+1. This project's live page: [https://www.kmcode.com/kmjax/planets/](https://www.kmcode.com/kmjax/planets/)
 1. Menu of all projects: [https://kmjax.surge.sh](https://kmjax.surge.sh)
 
 #### DESCRIPTION
@@ -18,10 +18,9 @@ Create a webpage about the planets in our solar system
 
 #### STATUS
 
-COMPLETED on 2020-12-08. 
+COMPLETED on 2020-12-08.
 
-See checklist above for status of each project objective. 
-
+See checklist above for status of each project objective.
 
 #### PREVIOUS STATUS MESSAGES
 
